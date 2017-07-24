@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlrecebimentoprodutos.controller.FXMLVBoxMainController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Pedido">
+            <items>
+              <MenuItem fx:id="menuItemListarPedido" mnemonicParsing="false" onAction="#handleMenuItemCadastrosClientes" text="Listar Pedidos" />
+                  <MenuItem fx:id="menuItemRelatorioPedido" mnemonicParsing="false" onAction="#handleMenuItemRelatorio" text="Relatorio Pedidos Fornecedor" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Produto">
+            <items>
+              <MenuItem fx:id="menuItemInserir" mnemonicParsing="false" onAction="#handleMenuCadastroProduto" text="Inserir Novo Produto" />
+                  <MenuItem fx:id="menuItemConsultar" mnemonicParsing="false" onAction="#handleMenuConsultarProduto" text="Consultar Produto" />
+                  <MenuItem fx:id="graficoProd" mnemonicParsing="false" onAction="#handleMenuGraficoProduto" text="Gráfico Produto" />
+                  <MenuItem fx:id="menuItemRelatoriosQuantidadeProdutos" mnemonicParsing="false" onAction="#handleMenuItemRelatoriosQuantidadeProdutos" text="Relatorio Produto" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="anchorPane" prefHeight="390.0" prefWidth="600.0" />
+   </children>
+</VBox>
