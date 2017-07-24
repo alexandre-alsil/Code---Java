@@ -1,0 +1,18 @@
+#db_webservice
+
+DROP TABLE IF EXISTS patrocinador ;
+
+CREATE TABLE patrocinador (
+  id_patrocinador                SERIAL                 NOT NULL,
+  nome_patrocinador         VARCHAR(60)     NOT NULL,
+  CONSTRAINT pk_patrocinador
+	PRIMARY KEY (id_patrocinador)
+);
+
+INSERT INTO patrocinador (nome_patrocinador ) VALUES ('Ilzas Restaurante');
+INSERT INTO patrocinador (nome_patrocinador ) VALUES ('Malboro');
+INSERT INTO patrocinador (nome_patrocinador ) VALUES ('Luiza Bertolaci');
+INSERT INTO patrocinador (nome_patrocinador ) VALUES ('Heineken');
+INSERT INTO patrocinador (nome_patrocinador ) VALUES ('YouTube');
+
+
