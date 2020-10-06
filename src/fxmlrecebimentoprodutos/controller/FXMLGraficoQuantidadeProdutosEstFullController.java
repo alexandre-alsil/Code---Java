@@ -28,11 +28,7 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.Alert;
 
-/**
- * FXML Controller class
- *
- * @author victo
- */
+
 public class FXMLGraficoQuantidadeProdutosEstFullController implements Initializable {
 
     @FXML
