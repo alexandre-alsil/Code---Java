@@ -17,8 +17,3 @@
 * Utilização de relatórios com acesso ao Banco de Dados
 * Backend em Java7
 * Frontend JavaFX 
-<<<<<<< HEAD
-
-## Sobre 
-=======
->>>>>>> e042adcedd91147e34c06ae59ef7c4c722936852
